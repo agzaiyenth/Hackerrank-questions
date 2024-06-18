@@ -28,7 +28,6 @@ class Cache{
 
 };
 
-// 코드 작성 Start ===================================================
 class LRUCache: public Cache
 {
 public:
