@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.InputMismatchException;
 
-public class B {
+public class CLoudyDay {
 	InputStream is;
 	PrintWriter out;
 	String INPUT = "";
@@ -95,7 +95,7 @@ public class B {
 		if(!INPUT.isEmpty())tr(System.currentTimeMillis()-s+"ms");
 	}
 	
-	public static void main(String[] args) throws Exception { new B().run(); }
+	public static void main(String[] args) throws Exception { new CLoudyDay().run(); }
 	
 	private byte[] inbuf = new byte[1024];
 	public int lenbuf = 0, ptrbuf = 0;
