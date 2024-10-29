@@ -38,7 +38,7 @@ can_form = True
 for i in range(zion_N):
     if zion_S1_full[i] >= zion_S2_full[i]:
         can_form = False
-        break
+        break 
 if not can_form:
     print(0)       
 else:
